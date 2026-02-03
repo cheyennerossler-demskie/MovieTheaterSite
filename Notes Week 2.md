@@ -11,10 +11,15 @@ Met with Eric on Tuesday 1/26/26
     - Accessible with Linus / Mac
 - Visual Studio Code > frontend
 
-- Single page app 
-- Goal: see “Friends icons” for seen/want/ratings
-- Goal: Ui / React > pop-ups vs. new page
-- Version Control app:  Jira
+- Reviewed code
+- Reviewed current status and future goals
+- Reviewed potential ideas 
+    - I made suggestions
+- Reviewed example of how the site works
+    - How to add movies, posters, etc.
+- Reviewed task list
+
+- Version Control app to use:  Jira
 
 ## Current tasks ideas:
 1. Ability to edit an entity
