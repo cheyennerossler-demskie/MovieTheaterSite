@@ -2,9 +2,8 @@
 Senior Project, SUNY New Paltz
 
 ## Link to Project
-- Flatbox Studios Supervisor: Eric Carpouzis
 https://github.com/ecarpouzis/MovieTheater.git
-
+- Flatbox Studios Supervisor: Eric Carpouzis
 
 ## Purpose
 MovieTheater is a website to celebrate cinema and combat the endless options on streaming services. This web application is a tool to track movies we have access to watch, we can mark if a movie has been seen already or if we want to watch it, and we can easily making decisions about movie night by discovering our friend's updates as well! 
@@ -25,15 +24,4 @@ Movie Rating - Users are able to rate movies and compare to the ratings from oth
 Collage - The site can generate one massive collage of all movie posters. Eventually I plan to add the ability to generate mosaics from movie posters. Example image:
 
 ## Local Development
-Copy src/MovieTheater/appsettings.default.json to src/MovieTheater/appsettings.Development.json
-
-Update the values in appsettings.Development for local development:
-
-DbConnectionString is your sql server connection string to the movie db
-
-Configure React.js project
-
-In console, cd src/ui
-npm install
-npm run start
-The c# project includes a reverse proxy that serves the frontend files for both local and deployed dev. React project should start on localhost:3000, c# should start on localhost:3001.
+TBD
