@@ -25,5 +25,7 @@ Collage - The site can generate one massive collage of all movie posters. Eventu
 
 ## Local Development
 cd src/ui
+
 npm install --legacy-peer-deps // installs dependencies
+
 npm run start
