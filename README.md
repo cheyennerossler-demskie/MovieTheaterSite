@@ -24,4 +24,6 @@ Movie Rating - Users are able to rate movies and compare to the ratings from oth
 Collage - The site can generate one massive collage of all movie posters. Eventually I plan to add the ability to generate mosaics from movie posters. Example image:
 
 ## Local Development
-TBD
+cd src/ui
+npm install --legacy-peer-deps // installs dependencies
+npm run start
