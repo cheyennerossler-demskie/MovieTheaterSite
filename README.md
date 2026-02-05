@@ -29,3 +29,7 @@ cd src/ui
 npm install --legacy-peer-deps // installs dependencies
 
 npm run start
+
+Visual Studio: backend
+Visual Studio Code: frontend
+SQL Server Management Studio: database
