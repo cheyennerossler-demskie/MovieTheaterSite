@@ -24,12 +24,20 @@ Movie Rating - Users are able to rate movies and compare to the ratings from oth
 Collage - The site can generate one massive collage of all movie posters. Eventually I plan to add the ability to generate mosaics from movie posters. Example image:
 
 ## Local Development
+clone GitHub Respository: https://github.com/ecarpouzis/MovieTheater.git
+
+Visual Studio: backend
+
+Visual Studio Code: frontend
+
+SQL Server Management Studio: database
+
+Run commands:
+
 cd src/ui
 
 npm install --legacy-peer-deps // installs dependencies
 
 npm run start
 
-Visual Studio: backend
-Visual Studio Code: frontend
-SQL Server Management Studio: database
+
