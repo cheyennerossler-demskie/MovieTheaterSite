@@ -1,7 +1,8 @@
-# MovieTheaterSite
+# Movie Website
 Senior Project, SUNY New Paltz
 
 ## Link to Project
+![Flatbox Studios logo](flatbox.png)
 https://github.com/ecarpouzis/MovieTheater.git
 - Flatbox Studios Supervisor: Eric Carpouzis
 
@@ -21,10 +22,10 @@ Want-To-Watch List - Similar to the above feature, but used for movies you want 
 
 Movie Rating - Users are able to rate movies and compare to the ratings from other users.
 
-Collage - The site can generate one massive collage of all movie posters. Eventually I plan to add the ability to generate mosaics from movie posters. Example image:
+Collage - The site can generate one massive collage of all movie posters. Eventually I plan to add the ability to generate mosaics from movie posters.
 
 ## Local Development
-clone GitHub Respository: https://github.com/ecarpouzis/MovieTheater.git
+clone GitHub Repository: https://github.com/ecarpouzis/MovieTheater.git
 
 Visual Studio: backend
 
