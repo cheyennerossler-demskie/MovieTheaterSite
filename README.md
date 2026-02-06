@@ -44,7 +44,7 @@ Movie Theater Site is a web-application to celebrate cinema and combat the endle
 - National Film Registry (Library of Congress)
 - The Criterion Collection
 
-## Technologies
+## Techn Stack
 Movie Theater Site is an open-source .NET 8 CRUD entity-management application leveraging open APIs, such as Google’s Programmable Search Engine API, with a front-end driven by React.
 
 Movie Data & Posters 
@@ -55,16 +55,16 @@ Users
 - A typical ASP.Net Identity implementation would be trivial, but this site is communally shared between Flatbox Studio members and friends, with no private data
 
 ### Lanaguages & Frameworks
-**C#** & **Python** for backend design
-- Visual Studio 
+- Backend: **C#** & **Python**
+    - Visual Studio 
 
-**React** & **HTML** & **CSS** for frontend design
-- Visual Studio Code
+- Frontend: **React**, **HTML**, & **CSS** 
+    - Visual Studio Code
 
-**GQL** for database
-- SQL Server Management Studio
+- Database: **GQL**
+    - SQL Server Management Studio
 
-**Docker** & **Kubernetes** for containerization
+- Containerization: **Docker** & **Kubernetes** 
 
 ## Local Development
 ### Clone GitHub Repository: https://github.com/ecarpouzis/MovieTheater.git
