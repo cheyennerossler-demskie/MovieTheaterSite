@@ -18,21 +18,21 @@ Movie Theater Site is a web-application to celebrate cinema and combat the endle
 - Movies & Actors
     - Search capabilities
 Watched 
-Once logged in, a user can mark each movie they've watched and they can then see the number of movies they've ever watched, or filter to see the information for each of those movies
+- Once logged in, a user can mark each movie they've watched and they can then see the number of movies they've ever watched, or filter to see the information for each of those movies
 Want-To-Watch Lists	
-Similar to the above feature, but used for movies you want to watch in the future
+- Similar to the above feature, but used for movies you want to watch in the future
 Ratings
-Users are able to rate movies and compare to the ratings from other users
+- Users are able to rate movies and compare to the ratings from other users
 Posters
-The site can generate one massive collage of all movie posters
+- The site can generate one massive collage of all movie posters
 
 ![Movie collage](moviecollage.png)
 
 ### Future Features:
-Request movies to add to site 
-Trailers for movies
-Streaming services available per movie
-Generate mosaics from movie posters
+- Request movies to add to site 
+- Trailers for movies
+- Streaming services available per movie
+- Generate mosaics from movie posters
 
 ## Collection References
 - 1001 Movies To Watch Before You Die
@@ -40,14 +40,14 @@ Generate mosaics from movie posters
 - The Criterion Collection
 
 ## Technologies
-Movie Theater Site is an open-source .NET 8 CRUD entity-management application leveraging open APIs, such as Google’s Programmable Search Engine API, driven w
+Movie Theater Site is an open-source .NET 8 CRUD entity-management application leveraging open APIs, such as Google’s Programmable Search Engine API, with a front-end driven by React.
 
 **C#** & **Python** for backend
-Visual Studio 
+- Visual Studio 
 **JavaScript** & **React** for frontend
-Visual Studio Code
+- Visual Studio Code
 **GQL** for database
-SQL Server Management Studio
+- SQL Server Management Studio
 **Docker** & **Kubernetes** for containerization
 
 Movie Data & Posters 
