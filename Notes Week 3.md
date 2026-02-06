@@ -34,6 +34,3 @@ Suggestions:
 - Poster Max Height/Width 
     - Consistency of image sizes, create new component for display
 
-## Agile Methodology
-- Jira ticket board:
-![Jira board](pics/Jiraboard.png)
