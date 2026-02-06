@@ -51,17 +51,21 @@ SQL Server Management Studio
 **Docker** & **Kubernetes** for containerization
 
 Movie Data & Posters 
-Data has been retrieved through various methods including web scraping and API access
-Posters were once stored as BLOBs, but now stored as files because it’s faster and less resource-intensive
-When a new movie is added to the site, a Python script is run to create a high quality/small sized thumbnail, which is used when browsing for movies
+- Data has been retrieved through various methods including web scraping and API access
+- Posters were once stored as BLOBs, but now stored as files because it’s faster and less resource-intensive
+- When a new movie is added to the site, a Python script is run to create a high quality/small sized thumbnail, which is used when browsing for movies
 Users 
-A typical ASP.Net Identity implementation would be trivial, but this site is communally shared between Flatbox Studio members and friends, with no private data
+- A typical ASP.Net Identity implementation would be trivial, but this site is communally shared between Flatbox Studio members and friends, with no private data
 
 ## Local Development
 ### Clone GitHub Repository: https://github.com/ecarpouzis/MovieTheater.git
 
 Run commands in terminal:
+
 cd src/ui
+
 npm install --legacy-peer-deps // installs dependencies
+
 npm run start
+
 React runs on localhost:3000, C# runs on localhost:3001
