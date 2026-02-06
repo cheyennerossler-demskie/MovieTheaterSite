@@ -44,7 +44,7 @@ Movie Theater Site is a web-application to celebrate cinema and combat the endle
 - National Film Registry (Library of Congress)
 - The Criterion Collection
 
-## Techn Stack
+## Tech Stack
 Movie Theater Site is an open-source .NET 8 CRUD entity-management application leveraging open APIs, such as Google’s Programmable Search Engine API, with a front-end driven by React.
 
 Movie Data & Posters 
