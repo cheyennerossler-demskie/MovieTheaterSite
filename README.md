@@ -49,10 +49,13 @@ Movie Theater Site is an open-source .NET 8 CRUD entity-management application l
 
 **C#** & **Python** for backend design
 - Visual Studio 
+
 **JavaScript** & **React** for frontend design
 - Visual Studio Code
+
 **GQL** for database
 - SQL Server Management Studio
+
 **Docker** & **Kubernetes** for containerization
 
 Movie Data & Posters 
