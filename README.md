@@ -2,7 +2,7 @@
 Senior Project, SUNY New Paltz
 
 ## Link to Project
-![Flatbox Studios logo](flatbox.png)
+![Flatbox Studios logo](pics/flatbox.png)
 
 https://github.com/ecarpouzis/MovieTheater.git
 - Flatbox Studios Supervisor: Eric Carpouzis
@@ -10,7 +10,7 @@ https://github.com/ecarpouzis/MovieTheater.git
 ## Overview
 Movie Theater Site is a web-application to celebrate cinema and combat the endless options of films available throughout the streaming-service world. This site tracks watched movies, want-to-watch movies, and personalized movie ratings to assist with planning movie nights! 
 
-![Movie Site](moviesite.png)
+![Movie Site](pics/moviesite.png)
 
 # Features
 - Users
@@ -31,7 +31,7 @@ Movie Theater Site is a web-application to celebrate cinema and combat the endle
 - Posters
     - The site can generate one massive collage of all movie posters
 
-![Movie collage](moviecollage.png)
+![Movie collage](pics/moviecollage.png)
 
 ### Future Features:
 - Request movies to add to site 
