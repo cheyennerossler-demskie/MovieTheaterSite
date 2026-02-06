@@ -1,44 +1,67 @@
-# Movie Website
+# Movie Theater Site
 Senior Project, SUNY New Paltz
 
 ## Link to Project
 ![Flatbox Studios logo](flatbox.png)
+
 https://github.com/ecarpouzis/MovieTheater.git
 - Flatbox Studios Supervisor: Eric Carpouzis
 
-## Purpose
-MovieTheater is a website to celebrate cinema and combat the endless options on streaming services. This web application is a tool to track movies we have access to watch, we can mark if a movie has been seen already or if we want to watch it, and we can easily making decisions about movie night by discovering our friend's updates as well! 
+## Overview
+Movie Theater Site is a web-application to celebrate cinema and combat the endless options of films available throughout the streaming-service world. This site tracks watched movies, want-to-watch movies, and personalized movie ratings to assist with planning movie nights! 
 
-This site was first built in ASP.Net MVC, then migrated to .Net Core. A new front-end driven by React is currently underway, and can be seen in the React branch.
+![Movie Site](moviesite.png)
 
-## Features
-Movie Data & Posters - Data has been retrieved through various methods including web scraping and API access. Posters were once stored as BLOBs, but I found it faster and less resource-intensive to store them as files. When a new movie is added to the site a Python script is ran to create a high quality/small sized thumbnail, which is used when browsing for movies.
+# Features
+- Users
+    - Discover friend’s lists
+- Movies & Actors
+    - Search capabilities
+Watched 
+Once logged in, a user can mark each movie they've watched and they can then see the number of movies they've ever watched, or filter to see the information for each of those movies
+Want-To-Watch Lists	
+Similar to the above feature, but used for movies you want to watch in the future
+Ratings
+Users are able to rate movies and compare to the ratings from other users
+Posters
+The site can generate one massive collage of all movie posters
 
-Users - A typical ASP.Net Identity implementation would be trivial, but this site is communally shared between a group of friends with no private data. After initial design discussions, I decided to create a very simple user implementation that does not require passwords for login. It's thus trivial for any user to check or update another user's information, which matches the intent of the site.
+![Movie collage](moviecollage.png)
 
-Has-Watched List - Once logged in, a user can mark each movie they've watched. They can then see the number of movies they've ever watched, or filter to see the information for each of those movies.
+### Future Features:
+Request movies to add to site 
+Trailers for movies
+Streaming services available per movie
+Generate mosaics from movie posters
 
-Want-To-Watch List - Similar to the above feature, but used for movies you want to watch in the future. This allows me to find movies multiple people want to see when picking a movie for movie night.
+## Collection References
+- 1001 Movies To Watch Before You Die
+- National Film Registry (Library of Congress)
+- The Criterion Collection
 
-Movie Rating - Users are able to rate movies and compare to the ratings from other users.
+## Technologies
+Movie Theater Site is an open-source .NET 8 CRUD entity-management application leveraging open APIs, such as Google’s Programmable Search Engine API, driven w
 
-Collage - The site can generate one massive collage of all movie posters. Eventually I plan to add the ability to generate mosaics from movie posters.
+**C#** & **Python** for backend
+Visual Studio 
+**JavaScript** & **React** for frontend
+Visual Studio Code
+**GQL** for database
+SQL Server Management Studio
+**Docker** & **Kubernetes** for containerization
+
+Movie Data & Posters 
+Data has been retrieved through various methods including web scraping and API access
+Posters were once stored as BLOBs, but now stored as files because it’s faster and less resource-intensive
+When a new movie is added to the site, a Python script is run to create a high quality/small sized thumbnail, which is used when browsing for movies
+Users 
+A typical ASP.Net Identity implementation would be trivial, but this site is communally shared between Flatbox Studio members and friends, with no private data
 
 ## Local Development
-clone GitHub Repository: https://github.com/ecarpouzis/MovieTheater.git
+### Clone GitHub Repository: https://github.com/ecarpouzis/MovieTheater.git
 
-Visual Studio: backend
-
-Visual Studio Code: frontend
-
-SQL Server Management Studio: database
-
-Run commands:
-
+Run commands in terminal:
 cd src/ui
-
 npm install --legacy-peer-deps // installs dependencies
-
 npm run start
-
-
+React runs on localhost:3000, C# runs on localhost:3001
