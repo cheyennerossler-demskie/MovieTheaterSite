@@ -18,6 +18,11 @@ Suggestions:
 - Copilot account
 - Playwright / Selenium (automation)
 
+References to similar websites to base formatting and features on:
+- IMDb
+- Letterboxd
+- Trakt
+
 ## Current tickets:
 - Movie Panel 2.0 
     - Open a pop-up for a chosen movie instead of changing pages
