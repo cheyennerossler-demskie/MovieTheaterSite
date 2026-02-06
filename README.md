@@ -17,12 +17,16 @@ Movie Theater Site is a web-application to celebrate cinema and combat the endle
     - Discover friend’s lists
 - Movies & Actors
     - Search capabilities
+
 Watched 
 - Once logged in, a user can mark each movie they've watched and they can then see the number of movies they've ever watched, or filter to see the information for each of those movies
+
 Want-To-Watch Lists	
 - Similar to the above feature, but used for movies you want to watch in the future
+
 Ratings
 - Users are able to rate movies and compare to the ratings from other users
+
 Posters
 - The site can generate one massive collage of all movie posters
 
@@ -62,10 +66,10 @@ Users
 
 Run commands in terminal:
 
-cd src/ui
+**cd src/ui**
 
-npm install --legacy-peer-deps // installs dependencies
+**npm install --legacy-peer-deps** // installs dependencies
 
-npm run start
+**npm run start**
 
-React runs on localhost:3000, C# runs on localhost:3001
+- React runs on localhost:3000, C# runs on localhost:3001
