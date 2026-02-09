@@ -1,5 +1,6 @@
 # Movie Theater Site
 Senior Project, SUNY New Paltz
+Spring 2026
 
 ## Link to Project
 ![Flatbox Studios logo](pics/flatbox.png)
