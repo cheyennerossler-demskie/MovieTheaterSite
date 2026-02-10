@@ -54,27 +54,29 @@ Movie Data & Posters
 Users 
 - A typical ASP.Net Identity implementation would be trivial, but this site is communally shared between Flatbox Studio members and friends, with no private data
 
-### Lanaguages & Frameworks
+## Lanaguages & Frameworks
 - Backend: **C#** & **Python**
-    - Visual Studio 
+    - IDE: Visual Studio 
 
 - Frontend: **React**, **HTML**, & **CSS** 
-    - Visual Studio Code
+    - IDE: Visual Studio Code
 
 - Database: **GQL**
-    - SQL Server Management Studio
+    - IDE: SQL Server Management Studio
 
 - Containerization: **Docker** & **Kubernetes** 
 
 ## Local Development
-### Clone GitHub Repository: https://github.com/ecarpouzis/MovieTheater.git
+**Clone GitHub Repository:** https://github.com/ecarpouzis/MovieTheater.git
 
-Run commands in terminal:
+- Database server requires a private account & password
 
-**cd src/ui**
+- Run commands in terminal frontend:
+    - **cd src/ui**
+    - **npm install --legacy-peer-deps** // installs dependencies
+    - **npm run start**
+<ins>React runs on localhost:3000</ins>
 
-**npm install --legacy-peer-deps** // installs dependencies
-
-**npm run start**
-
-- React runs on localhost:3000, C# runs on localhost:3001
+- Open Project/Solution "MovieTheater":
+    - Run program
+<ins>C# runs on localhost:3001</ins>
