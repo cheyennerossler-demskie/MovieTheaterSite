@@ -75,8 +75,10 @@ Users
     - **cd src/ui**
     - **npm install --legacy-peer-deps** // installs dependencies
     - **npm run start**
+
 <ins>React runs on localhost:3000</ins>
 
 - Open Project/Solution "MovieTheater":
     - Run program
+
 <ins>C# runs on localhost:3001</ins>
