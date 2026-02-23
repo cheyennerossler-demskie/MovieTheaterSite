@@ -17,13 +17,13 @@ Met with Eric on Tuesday 2/10/26
 - Poster Max Height/Width 
     - Consistency of image sizes, create new component for display
 
-BEFORE:
+_BEFORE:_
 ![Before](pics/week4before.png)
 
-INSPIRATION:
+_INSPIRATION:_
 ![Inspo](pics/week4inspo.png)
 
-AFTER:
+_AFTER:_
 ![After](pics/week4after1.png)
 ![After](pics/week4after2.png)
 ![After](pics/week4after3.png)
