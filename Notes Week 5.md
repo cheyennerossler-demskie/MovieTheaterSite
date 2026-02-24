@@ -13,7 +13,7 @@ Met with Eric on Tuesday 2/17/26
     - Next, I will be verifying movie rating age ranges to complete mapping, referencing: Motion Picture Association (MPA) & Classification and Rating Administration (CARA)
 
 ### New Database Tables:
-_RatingMap & RatingMPA:_
+_RatingMap & RatingMPA:_</br>
 ![Tables](pics/week5database.png)
 
 ### Commits > Frontend:
