@@ -14,7 +14,7 @@ Met with Eric on Tuesday 2/17/26
 
 ### New Database Tables:
 _RatingMap & RatingMPA:_</br>
-![Tables](pics/week5database.png)
+![Tables](pics/week5newtables.png)
 
 ### Commits > Frontend:
 - Highlight when hovering:
