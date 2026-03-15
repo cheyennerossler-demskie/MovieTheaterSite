@@ -8,9 +8,9 @@ https://github.com/ecarpouzis/MovieTheater.git
 - Flatbox Studios Supervisor: Eric Carpouzis
 
 ## Overview
-Movie Theater Site is a web-application to celebrate cinema and combat the endless options of films available throughout the streaming-service world. This site tracks watched movies, want-to-watch movies, and personalized movie ratings to assist with planning movie nights! 
+Movie Theater Site is a web-application to celebrate cinema and combat the endless options of films available throughout the streaming-service world. This site tracks seen movies and want-to-watch movies to assist with planning movie nights! 
 
-![Movie Site](pics/moviesite.png)
+![Movie Site](pics/main_all.png)
 
 # Features
 - Users
@@ -19,19 +19,18 @@ Movie Theater Site is a web-application to celebrate cinema and combat the endle
 - Movies & Actors
     - Search capabilities
 
-- Watched 
-    - Once logged in, a user can mark each movie they've watched and they can then see the number of movies they've ever watched, or filter to see the information for each of those movies
+- Seen
+    - Once logged in, a user can mark each movie they've seen, updating the number of movies they've watched from the collection, and view the full 'seen' list
 
-- Want-To-Watch Lists	
-    - Similar to the above feature, but used for movies you want to watch in the future
-
-- Ratings
-    - Users are able to rate movies and compare to the ratings from other users
+- Want	
+    - Similar to the above 'seen' feature, but used for movies you want to watch in the future
 
 - Posters
-    - The site can generate one massive collage of all movie posters
+    - The site can generate one massive collage of all movie posters or movies from a specific actor
 
 ![Movie collage](pics/moviecollage.png)
+
+![Movie collage](pics/dannycollage.png)
 
 ### Future Features:
 - Request movies to add to site 
@@ -45,7 +44,7 @@ Movie Theater Site is a web-application to celebrate cinema and combat the endle
 - The Criterion Collection
 
 ## Tech Stack
-Movie Theater Site is an open-source .NET 8 CRUD entity-management application leveraging open APIs, such as Google’s Programmable Search Engine API, with a front-end driven by React.
+Movie Theater Site is an open-source .NET entity-management application leveraging open APIs, such as Google’s Programmable Search Engine API, with a front-end driven by React.
 
 Movie Data & Posters 
 - Data has been retrieved through various methods including web scraping and API access
@@ -55,16 +54,16 @@ Users
 - A typical ASP.Net Identity implementation would be trivial, but this site is communally shared between Flatbox Studio members and friends, with no private data
 
 ## Lanaguages & Frameworks
-- Backend: **C#** & **Python**
+- Backend: **ASP.NET Core 8.0 (C#)** & **Python**
     - IDE: Visual Studio 
 
-- Frontend: **React**, **HTML**, & **CSS** 
+- Frontend: **React 18.3 (JavaScript/JSX)** & **Vite 6.2**
     - IDE: Visual Studio Code
 
-- Database: **GQL**
+- Database: **SQL**
     - IDE: SQL Server Management Studio
 
-- Containerization: **Docker** & **Kubernetes** 
+- Containerization & Deployment: **Docker** & **Kubernetes** 
 
 ## Local Development
 **Clone GitHub Repository:** https://github.com/ecarpouzis/MovieTheater.git
@@ -76,7 +75,7 @@ Users
     - **npm install --legacy-peer-deps** // installs dependencies
     - **npm run start**
 
-<ins>React runs on localhost:3000</ins>
+<ins>React runs on localhost:3001</ins>
 
 - Open Project/Solution "MovieTheater":
     - Run program
