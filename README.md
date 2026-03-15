@@ -10,7 +10,7 @@ https://github.com/ecarpouzis/MovieTheater.git
 ## Overview
 Movie Theater Site is a web-application to celebrate cinema and combat the endless options of films available throughout the streaming-service world. This site tracks seen movies and want-to-watch movies to assist with planning movie nights! 
 
-![Movie Site](pics/main_all.png)
+![Movie Site](pics/mainall.png)
 
 # Features
 - Users
