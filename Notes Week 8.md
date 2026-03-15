@@ -3,6 +3,7 @@
 - Reviewed new code base:
   - Apollo/HotChocolate/GQL was replaced with OData (Open Data Protocol)
   - Updated to Vite React because legacy dependencies are depreciated
+- Updated README of project
 
 ## Meeting Notes
 Met with Eric on Tuesday 3/10/26 and Friday 3/13/26
