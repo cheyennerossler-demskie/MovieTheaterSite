@@ -33,6 +33,7 @@ Movie Theater Site is a web-application to celebrate cinema and combat the endle
 ![Movie collage](pics/dannycollage.png)
 
 ### Future Features:
+- Personalized movie ratings
 - Request movies to add to site 
 - Trailers for movies
 - Streaming services available per movie
@@ -75,7 +76,7 @@ Users
     - **npm install --legacy-peer-deps** // installs dependencies
     - **npm run start**
 
-<ins>React runs on localhost:3001</ins>
+<ins>React runs on localhost:3000</ins>
 
 - Open Project/Solution "MovieTheater":
     - Run program
