@@ -8,7 +8,7 @@ https://github.com/ecarpouzis/MovieTheater.git
 - Flatbox Studios Supervisor: Eric Carpouzis
 
 ## Overview
-Movie Theater Site is a web-application to celebrate cinema and combat the endless options of films available throughout the streaming-service world. This site tracks seen movies and want-to-watch movies to assist with planning movie nights! 
+"Movie Theater" is a web-based app celebrating cinema and providing a solution to combat the endless options of movies from everything between the classics and the world of streaming-services. This site tracks seen movies and want-to-watch movies to assist with planning stress-free movie nights! 
 
 ![Movie Site](pics/mainall.png)
 
@@ -17,7 +17,7 @@ Movie Theater Site is a web-application to celebrate cinema and combat the endle
     - Discover friend’s lists
     
 - Movies & Actors
-    - Search capabilities
+    - Search capabilities via alphabet list for movie titles and search bars for movie titles and actor names
 
 - Seen
     - Once logged in, a user can mark each movie they've seen, updating the number of movies they've watched from the collection, and view the full 'seen' list
