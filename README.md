@@ -14,7 +14,7 @@ https://github.com/ecarpouzis/MovieTheater.git
 
 # Features
 - Users
-    - Discover friend’s lists
+    - Discover friend’s lists, set age restrictions, and customize view style
     
 - Movies & Actors
     - Search capabilities via alphabet list for movie titles and search bars for movie titles and actor names
