@@ -8,6 +8,7 @@ Met with Eric on Wednesday 3/18/26
   - Uses interfaces - both classes have same methods; chooses class based on server vs. devs
     - Need to ensure new file and thumbnail are properly downloaded
 - Discussed future frontend styling for both main and mobile sites
+- We will start to incorporate board games into the site, using similar formatting as movies
 
 Current site, taking visual inspiration from IMBd:
-![Current site](pics/moviesite3.16.26.png)
+![Current site](pics/moviesite3.17.26.png)
