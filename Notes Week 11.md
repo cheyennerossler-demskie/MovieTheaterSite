@@ -11,9 +11,13 @@
     - Changed how movie posters are stored
     - Gather average color (hex color) for each poster
   - Image Caching
-    - Browser cache 
+    - Browser cache
 
-Issue: Broken Image
+- New database table: MoviePosterDetails
+  - PosterVersion column > for updated posters
+  - DominateColor column > to store hex color for each poster
+
+Current Issue on my machine: Broken Image
 ![broken image](brokenimage.png)
 
 Updated Features:
