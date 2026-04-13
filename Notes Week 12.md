@@ -33,6 +33,6 @@ Met with Eric on Wednesday 4/8/26, Saturday 4/11/26, and Monday 4/13/26
   - Added placeholder poster images until we connect with database and backend
 
 Board Game section:
-![board game section](week12bgdropdown.png)
-![board game browse](week12browsebg.png)
-![board game card](week12bgcard.png)
+![board game section](pics/week12bgdropdown.png)
+![board game browse](pics/week12browsebg.png)
+![board game card](pics/week12bgcard.png)
