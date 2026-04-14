@@ -36,3 +36,11 @@ Board Game section:
 ![board game section](pics/week12bgdropdown.png)
 ![board game browse](pics/week12browsebg.png)
 ![board game card](pics/week12bgcard.png)
+
+Current frontend style:
+![user settings](pics/week12frontend.png)
+
+Mosaic refinement:
+![example pic](pics/week12mosaicex.png)
+![mosaic](pics/week12mosaic.png)
+![mosaic detail](pics/week12mosaiczoom.png)
