@@ -46,7 +46,7 @@ https://github.com/ecarpouzis/MovieTheater.git
     - Similar to the above 'played' feature, but used for board games you want to play in the future
 
 ![Board Game Section](pics/week13bg.png)
-![Board Game Sorting](pics/week13soring.png)
+![Board Game Sorting](pics/week13sorting.png)
 
 ### Future Features:
 - Personalized movie ratings
