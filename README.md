@@ -8,11 +8,11 @@ https://github.com/ecarpouzis/MovieTheater.git
 - Flatbox Studios Supervisor: Eric Carpouzis
 
 ## Overview
-"Movie Theater" is a web-based app celebrating cinema and providing a solution to combat the endless options of movies from everything between the classics and the world of streaming-services. This site tracks seen movies and want-to-watch movies to assist with planning stress-free movie nights! 
+"Movie Theater" is a web-based app celebrating cinema and providing a solution to combat the endless options of movies from everything between the classics and the world of streaming-services. This site tracks seen movies and want-to-watch movies to assist with planning stress-free movie nights! NEW: A Board Game Section has been added, allowing for more personalized activity-based gatherings!
 
 ![Movie Site](pics/mainall.png)
 
-# Features
+# Movie Features
 - Users
     - Discover friend’s lists, set age restrictions, and customize view style
     
@@ -32,6 +32,22 @@ https://github.com/ecarpouzis/MovieTheater.git
 
 ![Movie collage](pics/dannycollage.png)
 
+# Board Game Features
+- Users
+    - Discover friend’s lists, set age restrictions, and customize view style
+    
+- Board Games
+    - Search capabilities via alphabet list for board game titles and search bars for board game titles and additional filters
+
+- Played
+    - Once logged in, a user can mark each board game they've played, updating the number of board games they've played from the collection, and view the full 'played' list
+
+- Want	
+    - Similar to the above 'played' feature, but used for board games you want to play in the future
+
+![Board Game Section](pics/week13bg.png)
+![Board Game Sorting](pics/week13soring.png)
+
 ### Future Features:
 - Personalized movie ratings
 - Request movies to add to site 
@@ -39,7 +55,7 @@ https://github.com/ecarpouzis/MovieTheater.git
 - Streaming services available per movie
 - Generate mosaics from movie posters
 
-## Collection References
+## Movie Collection References
 - 1001 Movies To Watch Before You Die
 - National Film Registry (Library of Congress)
 - The Criterion Collection
