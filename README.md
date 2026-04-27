@@ -8,16 +8,18 @@ https://github.com/ecarpouzis/MovieTheater.git
 - Flatbox Studios Supervisor: Eric Carpouzis
 
 ## Overview
-"Movie Theater" is a web-based app celebrating cinema and providing a solution to combat the endless options of movies from everything between the classics and the world of streaming-services. This site tracks seen movies and want-to-watch movies to assist with planning stress-free movie nights! NEW: A Board Game Section has been added, allowing for more personalized activity-based gatherings!
+"Movie Theater" is a web-based app celebrating cinema and providing a solution to combat the endless options of movies from everything between the classics and the world of streaming-services. This site tracks seen movies and want-to-watch movies to assist with planning stress-free movie nights! 
+**NEW**: A Board Game Section has been added, allowing for more personalized activity-based gatherings!
 
 ![Movie Site](pics/mainall.png)
 
 # Movie Features
 - Users
-    - Discover friend’s lists, set age restrictions, and customize view style
+    - Discover friend’s lists, set age restrictions according to MPA ratings, and customize view style on mobile site
     
 - Movies & Actors
     - Search capabilities via alphabet list for movie titles and search bars for movie titles and actor names
+    - Links to IMDb and RottenTomato ratings
 
 - Seen
     - Once logged in, a user can mark each movie they've seen, updating the number of movies they've watched from the collection, and view the full 'seen' list
@@ -27,40 +29,45 @@ https://github.com/ecarpouzis/MovieTheater.git
 
 - Posters
     - The site can generate one massive collage of all movie posters or movies from a specific actor
+ 
+### Movie Collection References
+- 1001 Movies To Watch Before You Die
+- National Film Registry (Library of Congress)
+- The Criterion Collection
 
 ![Movie collage](pics/moviecollage.png)
 
 ![Movie collage](pics/dannycollage.png)
 
 # Board Game Features
-- Users
-    - Discover friend’s lists, set age restrictions, and customize view style
-    
 - Board Games
     - Search capabilities via alphabet list for board game titles and search bars for board game titles and additional filters
+    - How-to-Play video links
+    - Link to BoardGameGeek
 
-- Played
-    - Once logged in, a user can mark each board game they've played, updating the number of board games they've played from the collection, and view the full 'played' list
-
-- Want	
-    - Similar to the above 'played' feature, but used for board games you want to play in the future
-
+- Filters
+    - Player count, player age, and play length
+ 
+- Sorting
+    - Alphabetical, play time, rating, and complexity     
+      
 ![Board Game Section](pics/week13bg.png)
 ![Board Game Sorting](pics/week13sorting.png)
 
 ### Future Features:
+Movies:
 - Personalized movie ratings
 - Request movies to add to site 
 - Trailers for movies
 - Streaming services available per movie
-- Generate mosaics from movie posters
+- Scheduler for movies nights
 
-## Movie Collection References
-- 1001 Movies To Watch Before You Die
-- National Film Registry (Library of Congress)
-- The Criterion Collection
+Games:
+- Tags for type of games for better fitering
+- Rule books and Icon References
+- Scheduler for game nights
 
-## Tech Stack
+## Technical Stack
 Movie Theater Site is an open-source .NET entity-management application leveraging open APIs, such as Google’s Programmable Search Engine API, with a front-end driven by React.
 
 Movie Data & Posters 
@@ -71,25 +78,45 @@ Users
 - A typical ASP.Net Identity implementation would be trivial, but this site is communally shared between Flatbox Studio members and friends, with no private data
 
 ## Lanaguages & Frameworks
-- Backend: **ASP.NET Core 8.0 (C#)** & **Python**
-    - IDE: Visual Studio 
+- Languages:
+    - **C# (.NET 8)**
+    - **JavaScript/JSX**
+    - **Python**
+    - **SQL**
+  
+- Backend:
+    - **ASP.NET Core 8**
+    - **OData**
+    - **Entity Framework Core**
+    - **YARP Reverse Proxy**
+    - **CliFX**
 
-- Frontend: **React 18.3 (JavaScript/JSX)** & **Vite 6.2**
-    - IDE: Visual Studio Code
+- Frontend:
+    - **React 18**
+        - **Vite**
+        - **Ant Design v4**
 
-- Database: **SQL**
-    - IDE: SQL Server Management Studio
+- Database: **SQL Server**
 
-- Containerization & Deployment: **Docker** & **Kubernetes** 
+- Containerization & Deployment:
+    - **Docker**
+    - **MicroK8s(Kubernetes)**
+
+- APIs:
+    - **IMDb API** > movie data
+    - **TMDB** > movie metadata
+    - **OMDB** > movie metadata
+    - **BoardGameGeek XML API 2** > board game data
+    - **Google Search API** > image/search lookups
 
 ## Local Development
 **Clone GitHub Repository:** https://github.com/ecarpouzis/MovieTheater.git
 
 - Database server requires a private account & password
-
+ 
 - Run commands in terminal frontend:
     - **cd src/ui**
-    - **npm install --legacy-peer-deps** // installs dependencies
+    - **npm install --legacy-peer-deps** 
     - **npm run start**
 
 <ins>React runs on localhost:3000</ins>
