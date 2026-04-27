@@ -9,6 +9,7 @@ https://github.com/ecarpouzis/MovieTheater.git
 
 ## Overview
 "Movie Theater" is a web-based app celebrating cinema and providing a solution to combat the endless options of movies from everything between the classics and the world of streaming-services. This site tracks seen movies and want-to-watch movies to assist with planning stress-free movie nights! 
+
 **NEW**: A Board Game Section has been added, allowing for more personalized activity-based gatherings!
 
 ![Movie Site](pics/mainall.png)
@@ -88,8 +89,6 @@ Users
     - **ASP.NET Core 8**
     - **OData**
     - **Entity Framework Core**
-    - **YARP Reverse Proxy**
-    - **CliFX**
 
 - Frontend:
     - **React 18**
