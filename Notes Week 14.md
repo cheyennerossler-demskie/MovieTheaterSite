@@ -10,7 +10,7 @@ Gave the project a final name: BAMdb (Boardgame And Movie Database)
 ![bamdb movies pagination](pics/bamdbmoviepagination.png)
 ![bamdb movies edit](pics/moviesedit.png)
 
-![bamdb games](pics/bambdgames.png)
+![bamdb games](pics/bamdbgames.png)
 ![bamdb games card](pics/gamescard.png)
 ![bamdb games ages](pics/gameages.png)
 ![bamdb games length](pics/gamelength.png)
