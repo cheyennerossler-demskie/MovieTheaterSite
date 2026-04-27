@@ -1,6 +1,7 @@
 4/21-27/2026
 
-Gave the project a final name: BAMdb (Boardgame And Movie Database)
+- Gave the project a final name: BAMdb (Boardgame And Movie Database)
+- Updated READme to reflect current state of site
 
 ### Current site pics:
 ![bamdb movies](pics/bamdbmovies.png)
