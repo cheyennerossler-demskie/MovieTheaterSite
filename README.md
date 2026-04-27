@@ -64,7 +64,7 @@ Movies:
 - Scheduler for movies nights
 
 Games:
-- Tags for type of games for better fitering
+- Tags for type of games for better filtering
 - Rule books and Icon References
 - Scheduler for game nights
 
