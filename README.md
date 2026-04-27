@@ -8,9 +8,9 @@ https://github.com/ecarpouzis/MovieTheater.git
 - Flatbox Studios Supervisor: Eric Carpouzis
 
 ## Overview
-"Movie Theater" is a web-based app celebrating cinema and providing a solution to combat the endless options of movies from everything between the classics and the world of streaming-services. This site tracks seen movies and want-to-watch movies to assist with planning stress-free movie nights! 
+"Movie Theater" is a web-based app celebrating cinema and providing a solution to combat the endless options of **movies** from everything between the classics and the world of streaming-services. This site tracks seen movies and want-to-watch movies to assist with planning stress-free movie nights! 
 
-**NEW**: A Board Game Section has been added, allowing for more personalized activity-based gatherings!
+**NEW**: A **Board Game** Section has been added, allowing for more personalized activity-based gatherings!
 
 ![Movie Site](pics/mainall.png)
 
@@ -95,11 +95,12 @@ Users
         - **Vite**
         - **Ant Design v4**
 
-- Database: **SQL Server**
+- Database:
+    - **SQL Server**
 
 - Containerization & Deployment:
     - **Docker**
-    - **MicroK8s(Kubernetes)**
+    - **MicroK8s (Kubernetes)**
 
 - APIs:
     - **IMDb API** > movie data
