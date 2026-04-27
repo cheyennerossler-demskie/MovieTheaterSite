@@ -10,7 +10,7 @@ https://github.com/ecarpouzis/MovieTheater.git
 ## Overview
 "Movie Theater" iis a web-based app celebrating cinema & table top games, providing a solution to combat the endless options of movies to watch, everything from the classics to streaming media, and decide which board games to play off your shelf. This site tracks seen movies and want-to-watch movies and helps narrow down board game details, allowing for more personalized activity-based gatherings!
 
-![Movie Site](pics/mainmoviesite.png)
+![Movie Site](pics/mainmoviessite.png)
 
 # Movie Features
 - Users
